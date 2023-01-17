@@ -23,11 +23,11 @@ This tutorial will make sure that you're competent in executing the following ta
 
 3. Click the blue button "Submit" and you should see a course specific account on the top under "Additional Accounts" that starts with cs15l.
 
-<img src="images/csaccountlookup.png" height = "250" width = "500" />
+<img src="images/csaccountlookup1.png" height = "250" width = "500" />
 
 4. Click on the course specific account and you should see a blue underlined text to change your password. Click on it.
 
-<img src="images/passwordchange.png" height = "250" width = "500" />
+<img src="images/passwordchange1.png" height = "250" width = "500" />
 
 5. **TRICKY PART!!** You will be redirected to a page that will ask you to input your username and PID again to access the global password reset page. Do as prompted and you should see the following. Make sure new password is complicated and do as prompted. Make sure that for the 2 dropdown boxes, your options should be selected like the image below. Once you finished typing your new password again under the "Confirm your password" tab, **hit enter! Do not click check password! 
 
