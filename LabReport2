@@ -1,5 +1,12 @@
 # Lab Report 2
 
+## Report Contents
+[Part 1: StringServer.java](#stringserver)
+
+[Part 2: Debugging](#debugging)
+
+[Part 3: Reflection](#reflection)
+
 ## StringServer 
 
 StringServer handles requests by supporting the path `/add-message` and taking a string query. The expected output should display each added string in a new line.
