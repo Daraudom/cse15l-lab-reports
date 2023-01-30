@@ -1,10 +1,4 @@
 # Lab Report 2
-## Report Contents
-[Part 1: StringServer.java](#stringserver)
-
-[Part 2: Debugging](#debugging)
-
-[Part 3: Reflection](#reflection)
 
 ## StringServer 
 
