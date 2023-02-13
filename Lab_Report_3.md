@@ -26,7 +26,7 @@ directory.
 
 ### Example 2:
 #### `$grep -r Italy non-fiction`
-<img src="Images/grep-r2.png" height = "650" width = "800" />
+<img src="Images/grep-r2.png" height = "700" width = "800" />
 
 This recursively searches all of the folders and subdirectories of the working directory to find the file
 that has Italy in it. This time, we're specifying the directory to `non-fiction` so bash is only recursively searching
@@ -39,14 +39,14 @@ It is useful if we're trying to narrow down the location of the string in a give
 
 ### Example 1:
 #### `$grep -nr savvy`
-<img src="Images/grep-nr1.png" height = "400" width = "800" />
+<img src="Images/grep-nr_1.png" height = "300" width = "800" />
 
 This recursively look for `savvy` throughout the entire directory. We combined the command with -r to
 make it easier to look everywhere.
 
 ### Example 2:
 #### `$grep -nr delicious travel_guides/berlitz1`
-<img src="Images/grep-nr2.png" height = "400" width = "800" />
+<img src="Images/grep-nr2.png" height = "700" width = "800" />
 
 This recursively look for `delicious` throughout the specified directory as mentioned above. We combined the command with -r to
 make it easier to look everywhere.
