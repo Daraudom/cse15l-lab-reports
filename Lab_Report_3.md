@@ -65,7 +65,7 @@ This recursively go through each files inside the directory `berlitz1` and count
 
 ### Example 2:
 #### `$grep -cr spontaneous`
-<img src="Images/grep-cr2nr_1.png" height = "600" width = "800" />
+<img src="Images/grep-cr2.png" height = "600" width = "800" />
 
 This recursively go through each files inside the working directory, `travel_guides` and count the number of times the string, "spontaenous", pops up. This is useful if we're trying to track the number of times a word occur in each file.
 
