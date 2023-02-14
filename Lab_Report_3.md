@@ -32,6 +32,8 @@ This recursively searches all of the folders and subdirectories of the working d
 that has Italy in it. This time, we're specifying the directory to `non-fiction` so bash is only recursively searching
 inside that folder.
 
+Note: The following report will expllore commands combined with -r. This is to increase the simplicity of finding files that matches the pattern without having to give a specific path for a file.
+
 ## -n
 ### `$grep -n [string] [directory]` 
 This command show the line numebers of the file that matches the searched pattern.
@@ -50,4 +52,34 @@ make it easier to look everywhere.
 
 This recursively look for `delicious` throughout the specified directory as mentioned above. We combined the command with -r to
 make it easier to look everywhere.
+
+## -c
+### `$grep -c [string] [directory]` 
+This command displays the count of number of matches given the string/ pattern.
+
+### Example 1:
+#### `$grep -cr delicious travel_guides/berlitz1/`
+<img src="Images/grep-cr1.png" height = "600" width = "800" />
+
+This recursively go through each files inside the directory `berlitz1` and count the number of times the string, "delicious", pops up. This is useful if we're trying to track the number of times a word occur in each file.
+
+### Example 2:
+#### `$grep -cr spontaneous`
+<img src="Images/grep-cr2nr_1.png" height = "600" width = "800" />
+
+This recursively go through each files inside the working directory, `travel_guides` and count the number of times the string, "spontaenous", pops up. This is useful if we're trying to track the number of times a word occur in each file.
+
+## -i
+### `$grep -i [string] [directory]` 
+This commands allows the string given to be case insensitive and thus wil output the content of the files that matches it. This is useful if we're trying to get a more clear result of how many occurences of that string actually occur. Omitting `-i-` means the given string will be case-sensitive and will impact the search.
+
+### Example 1:
+#### `$grep -i dEsTROY trave_guides/berlitz2/Costa-History.txt`
+<img src="Images/grep-i1.png" height = "300" width = "800" />
+This look inside the file `Costa-History.txt` that look for the string "dEsTROY". Because the command made the string search case-insensitive, the results look for all occurences that contain the letter.
+
+### Example 2:
+#### `$grep -i BOss trave_guides/berlitz2/Canada-WhereToGo.txt`
+<img src="Images/grep-i2.png" height = "300" width = "800" />
+This look inside the file `Canada-WhereToGo.txt` that look for the string "BOss". Because the command made the string search case-insensitive, the results look for all occurences that contain the letter.
 
