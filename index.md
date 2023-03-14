@@ -10,3 +10,4 @@ Hello World!
 
 [Lab Report 4](https://daraudom.github.io/cse15l-lab-reports/Lab_Report_4.html)
 
+[Lab Report 5](https://daraudom.github.io/cse15l-lab-reports/Lab_Report_5.html)
